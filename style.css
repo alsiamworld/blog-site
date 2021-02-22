@@ -115,7 +115,6 @@ header{
 }
 .banner img{
     width: 100%;
-    height: 45px;
     border-radius: 5px;
 }
 .banner:hover img{
@@ -208,11 +207,10 @@ nav ul li:hover a{
     border-bottom: 10px solid #fff;
 }
 .left-side-wrap h2{
-    width: 30%;
+    width: 100%;
     color: #0077ff;
     border-bottom: 3px solid rgb(252, 252, 252);
-    border-radius: 10px;
-    padding-left: 15px;
+    margin-bottom: 10px;
 }
 .left-side-wrap img{
     width: 300px;
@@ -224,6 +222,7 @@ nav ul li:hover a{
 .left-side-wrap p{
     color: #1b1b1b;
     overflow: hidden;
+    height: 155px;
     text-align: justify;
     padding: 10px 10px 10px 0;
 }
@@ -267,7 +266,7 @@ nav ul li:hover a{
     padding: 15px;
 }
 .right-side-wrap ul li{
-    padding: 5px;
+    padding: 10px;
     margin: 0px 0px 0px 15px;
     color: 383838;
 }
@@ -319,8 +318,7 @@ nav ul li:hover a{
 }
 .featured-wrap ul li{
     color: #000000;
-    text-align: justify;
-    padding: 10px;
+    padding: 10px 0;
     list-style: square;
 }
 .featured-wrap ul li:hover a{
@@ -328,7 +326,7 @@ nav ul li:hover a{
 }
 .featured-wrap ul li a{
     color: #444;
-    padding: 10px;
+    padding: 10px 0;
     text-decoration: none;
     text-align: justify;
     font-family: arial;
@@ -376,6 +374,7 @@ footer h4{
 
 .about-img{
     max-width: 34%;
+    margin-top: 40px;
     position: relative;
     float: left;
 
@@ -445,7 +444,7 @@ footer h4{
 }
 .contact-form input{
     padding: 10px;
-    width: 50%;
+    width: 70%;
     box-sizing: border-box;
     color: #333;
     font-size: 16px;
@@ -456,7 +455,7 @@ footer h4{
 
 }
 .contact-form textarea{
-    width: 50%;
+    width: 70%;
     box-sizing: border-box;
     margin-bottom: 50px;
     padding: 10px;
@@ -477,10 +476,7 @@ footer h4{
 
 /* SLider Customization */
 
-.nivoSlider img{
-    width: 100%;
-    height: 500px;
-}
+
 
 /* Portfolio started here */
 
@@ -504,9 +500,10 @@ strong{
     padding: 10px;
     overflow: hidden;
 }
-.wrapper{
-    width: 60%;
-    float: left;
+
+.port-wrap{
+  float: right;
+  width: 60%;
 }
 .img-wrapper{
    max-width: 35%;
@@ -515,10 +512,12 @@ strong{
 }
 .img-wrapper img{
     width: 80%;
+    border-radius: 10px;
+    padding: 15px
 }
 .html{
     width: 90%;
-    background: rgba(255, 255, 255, 0.884);
+    background: rgba(190, 190, 190, 0.884);
     border-radius: 10px;
 }
 .html-per{
@@ -728,4 +727,7 @@ figure.snip0025.hover .curl {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
 }
+
+
+
 
