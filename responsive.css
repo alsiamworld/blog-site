@@ -5,6 +5,9 @@
     .social-menu{
         display: none;
     }
+    #selectnav1 {
+        display: none;
+    }
 }
 
 /* ===========================
@@ -13,6 +16,9 @@
 @media only screen and (min-width:768px) and (max-width:991px){
     header{
         width: 90%;
+    }
+    #selectnav1 {
+        display: none;
     }
     .slider-box{
         width: 90%;
@@ -124,6 +130,9 @@
     header{
         width: 95%;
     }
+    #selectnav1 {
+        display: none;
+    }
     .slider-box{
         width: 95%;
     }
@@ -200,7 +209,7 @@
     .featured-wrap{
         flex-direction: column;
     }
-    wrapper{
+    .wrapper{
         width: 100%;
         float: none;
         padding: 10px;
@@ -257,6 +266,26 @@
 @media only screen and (min-width:200px) and (max-width:479px){
     header{
         width: 95%;
+    }
+    #selectnav1 {
+        display: block;
+    }
+    nav ul {
+        padding: 5px 15px;
+        height: 3vh;
+        display: none;
+    }
+    #selectnav1 {
+        display: block;
+        width: 100%;
+        border-radius: 20px;
+        padding: 7px 10px;
+        outline: none;
+        border: 1px solid gray;
+        margin: 3px;
+    }
+    option {
+        background: #dadada;
     }
     .slider-box{
         width: 95%;

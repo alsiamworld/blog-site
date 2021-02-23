@@ -47,7 +47,7 @@
         </div>
         <div class="header-menu-bar">
             <nav>
-                <ul class="sidebar-list">
+                <ul id="nav" class="sidebar-list">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="post.html">Post</a></li>
                     <li><a href="features.html">Features</a></li>
@@ -199,15 +199,35 @@
         <h4> &copy Copyright 2021 . All Rights Reserverd By Al Siam World</h4>
     </footer>
 
-    <!-- Js File -->
+
+    <!-- js link  -->
+    <script src="responsive-menu.js"></script>
+ 
+    <!-- jQuery Min Version  -->
+        <script src=”http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js” type=”text/javascript” charset=”utf-8″></script>
+        <!-- JS File For Responsive Menu -->
+        <script src=”js/responsive-menu.js”></script>
+        <script>
+          domready(function(){
+                    selectnav('nav', {
+                label: '*** Select Nav *** '
+            });
+            prettyPrint()
+                })
+
+                </script>
+
+    // <!-- Js File -->
     <script type="text/javascript" src="slider/jquery-1.9.0.min.js"></script>
     <script type="text/javascript" src="slider/jquery.nivo.slider.js"></script>
+
     <script type="text/javascript">
     $(window).load(function() {
         $('#slider').nivoSlider();
     });
 
     </script>  
+    
     
 </body>
 
